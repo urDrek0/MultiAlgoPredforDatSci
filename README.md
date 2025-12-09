@@ -56,9 +56,9 @@ Pastikan Anda telah menginstal library Python berikut:
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost
 ```
 ### Langkah Penggunaan
-1. **Persiapan Data:**Pastikan dataset lalu lintas Munich sudah tersedia. Jika menggunakan Google Colab, pastikan Google Drive sudah di-mount dengan benar (sesuaikan path file di kode).
+1. **Persiapan Data:** Pastikan dataset lalu lintas Munich sudah tersedia. Jika menggunakan Google Colab, pastikan Google Drive sudah di-mount dengan benar (sesuaikan path file di kode).
 2. **Pilih Model:** Buka salah satu file .ipynb prediksi (misal: XboostPredDSA.ipynb).
-3. **Jalankan Notebook:**Eksekusi semua sel (Run All) dari atas ke bawah untuk melatih model.
+3. **Jalankan Notebook:** Eksekusi semua sel (Run All) dari atas ke bawah untuk melatih model.
 4. **Input Nilai:** Pada sel terakhir, Anda akan diminta memasukkan angka.
 
 **Catatan:** Proyek ini dikembangkan menggunakan Google Colab. Kode mencakup perintah drive.mount('/content/drive'). Jika Anda menjalankannya di mesin lokal (VS Code / Jupyter Lab), harap hapus bagian tersebut dan sesuaikan lokasi file dataset Anda.
